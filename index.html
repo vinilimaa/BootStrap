@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recanto do matuto</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="container">
+
+<div id="Topo" class="row">
+
+<div class="col-12">
+
+<h1>Recanto do Matuto</h1>
+<p>O sabor da terra</p>
+
+</div>
+
+
+
+</div>
+
+<h2>Escolha seu prato: </h2>
+
+<div class="row prato">
+
+
+  <div id="farofa" class="col-12 col-md-4  order-sm1" onclick="escolherFarofa()">
+    <img src="https://img.itdg.com.br/tdg/images/recipes/000/190/405/273311/273311_original.jpg?mode=crop&width=710&height=400" alt="">
+    <h3>Farofa de cuscuz
+    </h3>
+    <p>Macarrão, cuscuz, bacon e calabresa.</p>
+    <p><strong>R$ 10,00</strong></p>
+
+
+  </div>
+
+  <div id="arroz" class="col-12 col-md-4 order-sm2" onclick="escolherArroz()"><img src="/Curso Bootstrap/Images/arroz.jpg" alt="...">
+    <h3>Arroz de leite</h3>
+    <p>Arroz de leite com creme de leite, pimenta do reino e mussarela.</p>
+    <p><strong>R$ 12,00</strong></p></div>
+
+  <div id="prato" class="col-12 col-md-4  order-sm3" onclick="escolherPrato()"><img src="/Curso Bootstrap/Images/frango.jpg" alt="...">
+    <h3>Prato feito</h3>
+    <p>Batata frita, frango e legumes.</p>
+    <p><strong>R$ 10,00</strong></p></div>
+
+
+
+</div>
+
+<h2>Escolha sua bebida: </h2>
+
+<div class="row bebida">
+
+
+  <div id="suco" class="col-12 col-md-4 order-sm1" onclick="escolherSuco()"><img src="/Curso Bootstrap/Images/refresco.jpg" alt="...">
+    <h3>Suco da polpa</h3>
+    <p>Limão, morango ou manga.</p>
+    <p><strong>R$ 5,00</strong></p></div>
+
+  <div id="coca" class="col-12 col-md-4 order-sm2" onclick="escolherCoca()"><img src="/Curso Bootstrap/Images/coca.jpg" alt="...">
+    <h3>Coca-cola</h3>
+    <p>Coca lata</p>
+    <p><strong>R$ 3,00</strong></p></div>
+
+  <div id="chopp" class="col-12 col-md-4 order-sm3" onclick="escolherChopp()"><img src="/Curso Bootstrap/Images/cerveja.jpg" alt="...">
+    <h3>Caneca de Chopp</h3>
+    <p>Caneca de 500ml</p>
+    <p><strong>R$ 7,00</strong></p></div>
+
+
+
+</div>
+
+<h2>Escolha sua sobremesa: </h2>
+
+<div class="row sobremesa">
+
+
+  <div id="cup" class="col-12 col-md-4 order-sm1"  onclick="escolherCup()">
+
+    <img src="/Curso Bootstrap/Images/cupcake.jpg" alt="...">
+    <h3>Cupcake</h3>
+    <p>Cupcake de baunilha com cobertura de morange</p>
+    <p><strong>R$ 4,50</strong></p>
+
+
+
+  </div>
+
+  <div id="pudim" class="col-12 col-md-4 order-sm2"  onclick="escolherPudim()">
+
+    <img src="/Curso Bootstrap/Images/pudim.jpg" alt="...">
+    <h3>Pudim</h3>
+    <p>Pudim com calda de açucar e leite condensado</p>
+    <p><strong>R$ 4,50</strong></p>
+
+  </div>
+
+  <div id="/Curso Bootstrap/Images/sorvete" class="col-12 col-md-4 order-sm3"  onclick="escolherSorvete()">
+
+    <img src="/Curso Bootstrap/Images/sorvete.jpg" alt="...">
+    <h3>Sorvete</h3>
+    <p>Sorvete sabor morango.</p>
+    <p><strong>R$ 2,00</strong></p>
+
+
+  </div>
+
+
+
+
+
+</div>
+
+<h2>Finalize seu pedido abaixo: </h2>
+
+<div class="text-center">
+
+  <button  id="final" type="button" class="btn btn-success" onclick="finalizarPedido()">Finalizar pedido</button>
+  
+  
+  </div>
+
+
+
+</div>
+
+</body>
+</html>
